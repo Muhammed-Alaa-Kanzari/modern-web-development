@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-image: linear-gradient(19deg, #21d4fd, #00b140);
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.auth {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  min-width: 28rem;
+  max-width: 32rem;
+  box-shadow: 4px 4px 10px 4px #00a362;
+}
+
+.auth h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 2rem;
+}
+
+.auth form {
+  margin: 1rem;
+}
+
+.auth input {
+  width: 100%;
+  margin-top: 2rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 0.15rem solid #00a362;
+  padding: 0 0.5rem;
+  outline: none;
+}
+
+.auth input:hover {
+  border-bottom: 0.15rem solid #0086da;
+}
+
+.auth input::placeholder {
+  color: #09ba70;
+}
+
+.auth form p {
+  font-size: 1.2rem;
+  padding: 3rem 0 0 0.5rem;
+}
+.auth form p a {
+  color: #09ba70;
+  text-decoration: none;
+}
+
+.auth form p a:hover {
+  color: rgb(80, 80, 80);
+}
+
+.auth form button[type="submit"] {
+  margin: 2rem auto;
+  display: block;
+  width: 90%;
+  font-size: 1.6rem;
+  background-image: linear-gradient(135deg, #0086da, #09ba70);
+  border: none;
+  padding: 1rem 0;
+  color: white;
+  border-radius: 1.7rem;
+}
+
+.auth form button[type="submit"]:hover {
+  cursor: pointer;
+  background-image: linear-gradient(-135deg, #0086da, #09ba70);
+}
+
+.auth .login-message {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.auth .login-message a {
+  color: #0086da;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
