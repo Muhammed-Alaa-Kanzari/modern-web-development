@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --moss-green: #7b904b;
+  --dark-moss-green: #58641d;
+  --pakistan-green: #273b09;
+  --dark-green: #002400;
+  --lavender: #dbd2e0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #000;
+  height: 8rem;
+}
+
+header .logo {
+  display: flex;
+}
+header .logo img {
+  cursor: pointer;
+  height: 7rem;
+  align-self: center;
+  margin-top: 0.6rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+header .container nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+header nav ul li {
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+header nav ul li:hover {
+  color: var(--moss-green);
+  cursor: pointer;
+}
+
+section.banner {
+  background-color: var(--moss-green);
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark-green);
+  background-image: url("./media/bg/main.svg");
+  background-size: 175%;
+  background-position: 45% 5%;
+  background-repeat: no-repeat;
+}
+
+section.banner h1 {
+  font-size: 10rem;
+  line-height: 1.2;
+}
+
+section.banner p {
+  font-size: 1.6rem;
+  margin: 2rem;
+}
+
+section.banner button {
+  background-color: var(--dark-green);
+  border: none;
+  border-radius: 3rem;
+  padding: 1.8rem 2.8rem;
+  color: var(--moss-green);
+  font-size: 1.4rem;
+  margin: 2rem 0;
+  font-weight: 600;
+}
+
+section.banner button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #000;
+}
+
+footer section.container {
+  width: 90%;
+  margin: auto;
+  padding: 6rem 0 4rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+footer .logo img {
+  height: 7rem;
+}
+
+footer .logo img:hover {
+  cursor: pointer;
+}
+
+footer .links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  justify-content: space-evenly;
+}
+
+footer .links ul li {
+  font-size: 1.5rem;
+  padding: 1.3rem;
+}
+
+footer .links ul li:hover {
+  color: var(--moss-green);
+  cursor: pointer;
+}
+
+footer .social ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social ul li {
+  background-color: #222326;
+  border-radius: 50%;
+  height: 5.5rem;
+  width: 5.5rem;
+  margin: 0 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+footer .social ul li:hover {
+  color: var(--moss-green);
+  cursor: pointer;
+}
+
+footer .location {
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+}
+
+footer .location:hover {
+  color: var(--moss-green);
+  cursor: pointer;
+}
+
+footer .location i {
+  align-self: center;
+}
+footer .location span {
+  padding: 0 1rem;
+}
+
+footer .extras {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .extras ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 4rem 0 0;
+}
+
+footer .extras ul li {
+  font-size: 1.2rem;
+  color: #919496;
+  padding: 1rem;
+}
+
+footer .extras ul li:hover {
+  color: var(--moss-green);
+  cursor: pointer;
+}
+
+footer .extras span {
+  font-size: 1.2rem;
+  color: #919496;
+  align-self: center;
+}
